@@ -107,8 +107,6 @@
      body {
       font-family: 'Open Sans', sans-serif;
       font-size: 1em;
-      /*line-height: 1.6;*/
-      background-color: #202322;
       color: #e2e3ed;
       text-align: left;
      }
@@ -148,11 +146,11 @@
      }
       
      img {
-      
+      width: 100%;
      }
       
      figure {
-      
+      margin: 0;
      }
       
      address {
@@ -186,6 +184,14 @@
     flex-flow: row wrap;
     margin: 0;
   }
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
   
   .header-divider {
     background: #3a3a3a;
@@ -253,11 +259,20 @@
   /* -------------------- Mobile Styles - Homepage -------------------- */
   
   /* Hero Area */
+
+  header figure {
+    width: 31%;
+  }
   
   .hero-area {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url(../img/unplugged-retreat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
   }
   
   /* Aside */
@@ -295,8 +310,11 @@
     text-transform: uppercase;  
   }
   /* Features */
-  
+
   .features {
+    background: url(../img/unplugged-retreat-features.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -345,6 +363,7 @@
      ========================================================================== */
   
   .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -353,6 +372,7 @@
   }
   
   .contact-section {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -368,12 +388,12 @@
      FAQ Page
      ========================================================================== */
   
-  .faq {
+  .FAQ {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    background-color: #527158;
   }
   
   .faq .content-wrapper {
@@ -393,6 +413,7 @@
   }
 
   .faq-content h4 {
+    background-color: #527158;
     line-height: 1.333;
   }
   
@@ -578,7 +599,7 @@
       .reviews h2 {
         width: 85%;
       }
-    
+      .reviews article figure,
       .reviews article div {
         width: 49%;
       }
@@ -664,6 +685,10 @@
       .content-wrapper {
         max-width: 960px;
       }
+
+      header figure {
+        width: 25%;
+    }
 
       h2 {
         font-size: 2.25em;
