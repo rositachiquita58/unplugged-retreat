@@ -237,13 +237,13 @@ header figure {
   
   footer .contact {
     margin-bottom: 50px;
-    font-size: 1.5em;
   }
   
   footer .social-icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 12.5em;
   }
   
   footer .social-icons p {
@@ -434,6 +434,7 @@ header figure {
   
   .faq h2 {
     margin-bottom: 40px;
+    line-height: 1;
   }
   
   .faq-content {
@@ -441,7 +442,6 @@ header figure {
   }
 
   .faq-content h4 {
-    background-color: #527158;
     line-height: 1.333;
   }
   
@@ -654,7 +654,7 @@ header figure {
       }
     
       /* ==========================================================================
-       About Page
+       About Page -- TABLET
        ========================================================================== */
     
       .mission-content {
@@ -682,9 +682,13 @@ header figure {
         justify-content: space-between;
         align-items: flex-start;
       }
+
+      .contact-content h4 {
+        font-size: 1.5em;
+      }
     
       /* ==========================================================================
-       FAQ Page
+       FAQ Page -- TABLET
        ========================================================================== */
     
       .faq .content-wrapper {
@@ -739,7 +743,8 @@ header figure {
     
       /* Hero */
       .hero-area h1 {
-        width: 60%;
+        font-size: 3.75em;
+        width: 80%;
     }
     
      /* Aside */ 
@@ -750,6 +755,10 @@ header figure {
       aside .content-wrapper .form-description,
       aside .content-wrapper .form {
         width: 30%;
+      }
+
+      .form-description p {
+        font-size: 1.125em;
       }
     
       /* Features*/
@@ -778,7 +787,7 @@ header figure {
     }
   
     /* ==========================================================================
-    About Page
+    About Page -- DESKTOP
     ========================================================================== */
   
     .mission h2,
@@ -796,7 +805,7 @@ header figure {
     }
   
     /* ==========================================================================
-    FAQ Page
+    FAQ Page -- DESKTOP
     ========================================================================== */
     .faq h2 {
       width: 100%;
