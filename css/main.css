@@ -114,6 +114,8 @@
      ul, 
      ol {
       list-style-type: none;
+      padding: 0;
+      margin: 0;
      }
       
      a {
@@ -348,6 +350,10 @@ header figure {
     margin: 0;
   }
 
+  .fontawesome-icon {
+    text-align: center;
+  }
+
   .features i {
     font-size: 3.75em;
           margin-bottom: 40px;
@@ -367,8 +373,8 @@ header figure {
   }
   
   .reviews h3 {
-    width: 55%;
-    margin: 20px 0;
+    width: 75%;
+    margin: 0;
   }
   
   /* ==========================================================================
