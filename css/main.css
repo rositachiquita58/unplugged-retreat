@@ -416,7 +416,7 @@ header figure {
      FAQ Page
      ========================================================================== */
   
-  .FAQ {
+  .faq {
     background-color: #527158;
     display: flex;
     justify-content: center;
@@ -441,7 +441,7 @@ header figure {
     margin-bottom: 50px;
   }
 
-  .faq-content h4 {
+  .faq h4 {
     line-height: 1.333;
   }
   
@@ -690,12 +690,11 @@ header figure {
       /* ==========================================================================
        FAQ Page -- TABLET
        ========================================================================== */
-    
-      .faq .content-wrapper {
+       .faq .content-wrapper {
         justify-content: space-between;
       }
-    
-      .faq-content {
+
+       .faq-content {
         flex-basis: 45%;
       }
     
